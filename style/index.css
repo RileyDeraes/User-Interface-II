@@ -51,6 +51,7 @@ nav {
     display: flex;
     justify-content: center;
     font-size: 3rem;
+    padding-bottom: 5%;
 }
 
 nav a:hover{
@@ -97,7 +98,7 @@ h2 {
     font-size: 2rem;
     text-align: center;
     padding: 1%;
-    margin: 5% 25%;
+    margin: 5% 10%;
 }
 
 .bold {
@@ -107,7 +108,7 @@ h2 {
 #favoriteproject {
     padding-bottom: 10%;
     display: flex;
-    margin: 1% 10%;
+    margin: 0 1%;
 }
 
 #favoriteimage {
@@ -117,28 +118,33 @@ h2 {
 }
 
 #projectone {
-    width: 300px;
-    height: 500px;
+    width: 20%;
+    height: 50%;
     border-radius: 5%;
+    margin: 1%;
 }
 #projecttwo {
-    width: 300px;
-    height: 500px;
+    width: 20%;
+    height: 50%;
     border-radius: 5%;
+    margin: 1%;
 }
 #projectthree {
-    width: 300px;
-    height: 500px;
+    width: 20%;
+    height: 50%;
     border-radius: 5%;
+    margin: 1%;
 }
 #projectfour {
-    width: 300px;
-    height: 500px;
+    width: 20%;
+    height: 50%;
     border-radius: 5%;
+    margin: 1%;
 }
 .textprojects {
-    width: 100px;
-    height: 500px;
+    width: 20%;
+    height: 50%;
+    margin: 1%;
 }
 
 #otherprojects {
@@ -146,6 +152,7 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 footer {
