@@ -110,7 +110,6 @@ h2 {
     padding-bottom: 10%;
     display: flex;
     margin: 0 1%;
-    max-height: 100vh;
 }
 
 #favoriteimage {
@@ -243,5 +242,6 @@ button {
     #favoriteproject {
         padding: 5%;
         display: flex;
+        max-height: 50vh;
     }
 }
