@@ -110,6 +110,7 @@ h2 {
     padding-bottom: 10%;
     display: flex;
     margin: 0 1%;
+    max-height: auto;
 }
 
 #favoriteimage {
