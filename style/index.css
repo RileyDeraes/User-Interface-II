@@ -118,31 +118,31 @@ h2 {
 }
 
 #projectone {
-    width: 20%;
+    width: 18%;
     height: 50%;
     border-radius: 5%;
     margin: 1%;
 }
 #projecttwo {
-    width: 20%;
+    width: 18%;
     height: 50%;
     border-radius: 5%;
     margin: 1%;
 }
 #projectthree {
-    width: 20%;
+    width: 18%;
     height: 50%;
     border-radius: 5%;
     margin: 1%;
 }
 #projectfour {
-    width: 20%;
+    width: 18%;
     height: 50%;
     border-radius: 5%;
     margin: 1%;
 }
 .textprojects {
-    width: 20%;
+    width: 28%;
     height: 50%;
     margin: 1%;
 }
@@ -168,4 +168,78 @@ button {
     border-style: solid;
     margin: 5% 0;
     font-size: 3rem;
+}
+
+@media (max-width: 800px) {
+
+    .textprojects {
+        width: 25%;
+        height: 50%;
+        margin: 1%;
+    }
+
+    #projectone {
+        width: 40%;
+        height: 50%;
+        border-radius: 5%;
+        margin: 1%;
+    }
+    #projecttwo {
+        width: 40%;
+        height: 50%;
+        border-radius: 5%;
+        margin: 1%;
+    }
+    #projectthree {
+        width: 40%;
+        height: 50%;
+        border-radius: 5%;
+        margin: 1%;
+    }
+    #projectfour {
+        width: 40%;
+        height: 50%;
+        border-radius: 5%;
+        margin: 1%;
+    }
+    .textprojects {
+        width: 90%;
+        height: 50%;
+        margin: 1%;
+    }
+    
+    #otherprojects {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 0 0 0 0;
+    }
+}
+
+@media (max-width: 500px) {
+
+    h1{
+        font-size: 3.5rem;
+        font-weight: bold;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+        font-size: 2.5rem;
+        padding-bottom: 5%;
+        max-width: 50%;
+        margin-left: 25%;
+    }
+    
+    h2 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    
+    #favoriteproject {
+        padding: 5%;
+        display: flex;
+    }
 }
